@@ -1,15 +1,42 @@
-# Analysis-of-Pizza-Place-Restaurant-Performance-in-2015
-This project aims to analyze the performance of the Pizza Place restaurant in the year 2015 using their historical data. 
-The analysis encompasses several crucial aspects, including monthly order counts, peak hours, the most popular pizza types, revenue contribution from each pizza size, and revenue contribution from each pizza type. The primary objective of this project is to provide in-depth insights to the management of Pizza Place Restaurant to make better-informed decisions in managing their business.
+# Pizza Place Restaurant Performance Analysis (2015)
 
-Activities Conducted:
+## Overview
+This project analyzes the performance of the Pizza Place restaurant in the year 2015 using historical data. The analysis covers various aspects, including monthly order counts, peak hours, the most popular pizza types, revenue contributions by pizza size, and revenue contributions by pizza type. The primary goal is to provide insights to help the restaurant management make informed decisions and optimize their business.
 
-Analysis of Monthly Order Counts (Line Chart): Data from order_id for each year-month is processed and visualized in the form of a line chart. The results indicate which month had the highest order count.
+## Project Details
 
-Identification of Peak Hours (Bar Plot): Data from order_details is used to create a dataset of peak hours based on order times. These peak hours are then visualized in the form of a bar plot to identify the busiest hours.
+### Activities Conducted
+1. **Monthly Order Counts (Line Chart):** We processed order data to create a line chart depicting the order counts for each month. This helps identify the month with the highest sales.
 
-Analysis of the Most Popular Pizza Types (Bar Plot): Data from order_details is combined with pizza data to calculate the total quantity of each pizza type ordered. The results are visualized in a bar plot with a descending order to identify the most commonly ordered pizza types.
+2. **Peak Hours (Bar Plot):** By analyzing order details, we determined the busiest hours and visualized them using a bar plot.
 
-Analysis of Revenue Contribution from Each Pizza Size (Pie Chart): Revenue for each pizza size is calculated using the formula revenue = quantity x price. The results are visualized in a pie chart to show the percentage contribution of each pizza size.
+3. **Most Popular Pizza Types (Bar Plot):** We combined order details with pizza data to find the most frequently ordered pizza types, presenting the results in a descending bar plot.
 
-Analysis of Revenue Contribution from Each Pizza Type (Bar Plot): Revenue for each pizza type is calculated using the formula revenue = quantity x price. The results are visualized in a bar plot, sorted from highest to lowest revenue.
+4. **Revenue by Pizza Size (Pie Chart):** Revenue for each pizza size was calculated and displayed as a pie chart, showing the percentage contribution of each size.
+
+5. **Revenue by Pizza Type (Bar Plot):** Revenue for each pizza type was calculated and visualized in a bar plot, sorted by revenue.
+
+### Summary of Findings
+- The month with the highest sales is [INSERT MONTH NAME] with [INSERT NUMBER OF ORDERS] orders.
+- Peak hours occur at [INSERT HOUR] with [INSERT NUMBER OF ORDERS] orders.
+- The most commonly ordered pizza type is [INSERT PIZZA TYPE] with [INSERT NUMBER OF ORDERS] orders.
+- The highest revenue contribution comes from [INSERT PIZZA SIZE] sized pizzas, contributing [INSERT PERCENTAGE OF CONTRIBUTION] of the total revenue.
+- The pizza type with the highest revenue contribution is [INSERT PIZZA TYPE] with a total revenue of [INSERT TOTAL REVENUE].
+
+## Usage
+You can use the code and data provided in this repository to replicate the analysis or further explore the dataset.
+
+## Dependencies
+- Python
+- Pandas
+- Matplotlib
+
+## License
+This project is licensed under the [INSERT LICENSE NAME] License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- [INSERT ACKNOWLEDGMENTS, IF ANY]
+
+Feel free to contribute or provide feedback to enhance this analysis.
+
+Happy analyzing!
